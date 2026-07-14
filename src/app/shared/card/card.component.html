@@ -1,9 +1,9 @@
 <div class="card">
-  <div class="tag">Novo</div>
-  <img src="assets/img/perfil.jpg" alt="perfil foto" />
+  <div class="tag">{{ product?.tag ?? 'Novo' }}</div>
+  <img [src]="product?.image?.url ?? 'assets/img/perfil.jpg'" [alt]="product?.name ?? 'foto do produto'" />
   <div class="description">
-    <small>Vestidos</small>
-    <h4>Vestido Floral Midil</h4>
-    <span>R$ 299.90</span>
+    <small>{{ product?.category }}</small>
+    <h4>{{ product?.name }}</h4>
+    <span>{{ product?.price | currency: 'BRL' }}</span>
   </div>
 </div>

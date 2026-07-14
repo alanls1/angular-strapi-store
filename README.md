@@ -53,4 +53,5 @@ src/app/
 - [x] Integração com Strapi via API REST
 - [x] Listagem das categorias
 - [x] Listagem das tags
-- [ ] Listagem de produtos ligada à interface (em desenvolvimento)
+- [x] `ClothesService` e `HeroComponent` consomem e exibem os produtos reais retornados pela API
+- [ ] Content-type `stores` ainda precisa ser criado no Strapi (hoje o backend não tem nenhum content-type configurado, então o endpoint `api/stores` retorna 404 até isso ser feito do lado do Strapi)

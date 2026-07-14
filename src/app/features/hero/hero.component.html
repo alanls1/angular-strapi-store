@@ -1,8 +1,8 @@
 <div class="container-hero">
   <h3>Produtos em Destaque</h3>
   <div class="container-content-hero">
-    @for (item of items; track $index) {
-    <app-card />
+    @for (item of items; track item.id) {
+    <app-card [product]="item" />
     } @empty {
     <p>There are no items.</p>
     }
