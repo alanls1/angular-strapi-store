@@ -31,8 +31,8 @@ Este frontend depende de uma instância do **Strapi** rodando e servindo o conte
 ## 📦 Rodando localmente
 
 ```bash
-git clone https://github.com/alanls1/store_angular.git
-cd store_angular
+git clone https://github.com/alanls1/angular-strapi-store.git
+cd angular-strapi-store
 npm install
 npm start        # ng serve — http://localhost:4200
 npm run test      # testes unitários (Karma)
