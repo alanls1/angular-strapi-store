@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { CardComponent } from '../../share/card/card.component';
+import { CardComponent } from '../../shared/card/card.component';
 import { ClothesService } from '../../services/clothes.service';
 
 @Component({

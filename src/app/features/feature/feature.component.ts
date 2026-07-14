@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ButtonComponent } from '../../share/button/button.component';
+import { ButtonComponent } from '../../shared/button/button.component';
 import { TagsService } from '../../services/tags.service';
 import { tags } from '../../../types/tags';
 
